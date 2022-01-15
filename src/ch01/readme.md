@@ -31,3 +31,22 @@
     # this works for python3; replace toolchain if needed
     python -m http.server -d $HOME/.rustup/toolchains/stable-aarch64-unknown-linux-gnu/share/doc/rust/html
     ```
+
+- `cargo` to manage rust packages and dependencies
+
+    ```sh
+    # create a binary package
+    cargo new proj
+    # create a library package
+    cargo new proj --lib
+    # build dev version (executable in target/debug)
+    cargo build
+    # build release version (executable in target/release)
+    cargo build --release
+    # build and run
+    cargo run
+    # check compilation without actually compiling
+    cargo check
+    ```
+
+- `Cargo.toml` stores package meta for first time build and `Cargo.lock` stores package meta for reproducible builds
