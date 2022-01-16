@@ -137,3 +137,5 @@
         println!("{}", i);
     }
     ```
+
+- Names ending with `!` are macros. e.g. `println!()`
