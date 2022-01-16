@@ -11,3 +11,5 @@ Thanks to [The Rust Programming Language Book](https://doc.rust-lang.org/book).
 - [05 - Using structures](src/ch05/readme.md)
 - [06 - Enums and Pattern Matching](src/ch06/readme.md)
 - [07 - Packages, Crates and Modules](src/ch07/readme.md)
+- [08 - Common Collections](src/ch08/readme.md)
+- [09 - Error Handling](src/ch09/readme.md)
